@@ -8,7 +8,7 @@ function App() {
     <div>
       <WordCard value={word}/>
     </div>
-
+    
   );
 }
 
