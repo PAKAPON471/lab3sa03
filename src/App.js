@@ -5,9 +5,16 @@ import WordCard from './WordCard';
 const word = "Hello";
 function App() {
   return (
-    <div>
-      <WordCard value={word}/>
-    </div>
+    <body>
+      <div className='wrapper'>
+        <h1>
+          Guess the Word
+          <div className='content'>
+            <WordCard value={word}/>
+          </div>
+        </h1>
+      </div>
+    </body>
   );
 }
 
